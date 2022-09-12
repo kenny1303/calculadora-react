@@ -19,10 +19,12 @@ const Calculadora = () =>{
     const calculate = () => {
       
       try{
+        
         setResult(eval(result).toString());
   
-      } catch(err){
-        }
+      }catch(err){
+        //console.log("Error: " err);
+      }
 
      }
     
