@@ -20,7 +20,7 @@ const Calculadora = () =>{
       
       try{
         
-        setResult(eval(result).toString());
+        setResult((eval(result).toString()));
   
       }catch(err){
         //console.log("Error: " err);
