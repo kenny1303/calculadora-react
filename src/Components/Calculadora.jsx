@@ -23,7 +23,7 @@ const Calculadora = () =>{
         setResult((eval(result).toString()));
   
       }catch(err){
-        //console.log("Error: " err);
+       console.log("Error: ", err.message);
       }
 
      }
