@@ -3,27 +3,6 @@ import Calculadora from './Components/Calculadora'
 const App = () => {
   return (
     <Calculadora/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
   )
 }
