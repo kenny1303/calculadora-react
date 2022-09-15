@@ -30,6 +30,7 @@ const Calculadora = () =>{
     
     return(
       <>
+        <div className="calculator">
       <div className="container">
       <form>
         <input type="text" value={result}/>
@@ -58,7 +59,7 @@ const Calculadora = () =>{
       
   
       </div>
-  
+  </div>
       
   
       </>
